@@ -1,6 +1,6 @@
 # D3 Chart Components
 
-A collection of reusable D3.js chart components for React applications.
+A collection of reusable D3.js chart components for React applications. An abstract of d3 charts in react through a common component. Working on data normalization and will update.
 
 ## Components
 
