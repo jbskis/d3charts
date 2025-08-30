@@ -1,0 +1,52 @@
+/*******************************************
+Global Variables for D3 Components
+*******************************************/
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+
+// Typography Weights
+$light: 300;
+$normal: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$xbold: 800;
+
+// Border Radius
+$radius-xs: 2px;
+$radius-sm: 4px;
+$radius-md: 6px;
+$radius-lg: 8px;
+$radius-xl: 12px;
+
+// Brand Colors
+$brand-blue: #87cefa;
+$brand-blue-rgb: 135, 206, 250;
+$color-green: #01be8c;
+$color-red: #fe2948;
+$color-yellow: #ffc138;
+$color-purple: #9779fb;
+
+// CSS Custom Properties for theming
+:root {
+  --bg-panel: #1b1b1bdb;
+  --text-primary: #d3d3d3;
+  --text-secondary: rgba(188, 188, 188, 0.8);
+  --text-muted: rgba(255, 255, 255, 0.6);
+  --text-title: #b1ae9f;
+  --border-color: rgba(111, 111, 111, 0.11);
+}
+
+body.light {
+  --bg-panel: #dcdcdcdb;
+  --text-primary: #3d3d3d;
+  --text-secondary: rgba(71, 71, 71, 0.8);
+  --text-muted: rgba(0, 0, 0, 0.6);
+  --text-title: #5e5e5e;
+  --border-color: rgba(0, 0, 0, 0.1);
+}

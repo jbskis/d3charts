@@ -1,0 +1,31 @@
+@import 'vars';
+@import 'charts';
+
+// Additional utility classes for D3 components
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.chart-responsive {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+}
+
+// Responsive chart container
+.chart-responsive-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  
+  .chart-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
